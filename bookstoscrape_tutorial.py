@@ -35,4 +35,4 @@ for item in pages:
 data={'Title': titles, 'Prices': prices, 'Stars':stars, "URLs":urlss}
 df=pd.DataFrame(data=data)
 df.index+=1
-df.to_excel("/Users/sahityasehgal/Desktop/tutorials/BookStoreWS/output.xlsx")
+df.to_excel("~/Desktop/tutorials/BookStoreWS/output.xlsx")
